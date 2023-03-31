@@ -17,20 +17,46 @@ function Home2() {
           <Col md={8} className="home-about-description">
             <h1 style={{ fontSize: "2.6em" }}>
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
-<h1> Introducing Myself</h1>
-<p className="home-about-body">
-    const name = "Your Name"; <br />
-    const degree = "System Engineering"; <br />
-    const university = "Ecole Centrale Casablanca"; <br />
-    const languages = ["Python"]; <br />
-    const interests = ["AI-based Products and Services", "Deep Learning", "Computer Vision"]; <br />
-    const tools = ["Pandas", "NumPy", "Scikit-Learn"]; <br />
-    <br />
-    console.log(`Hi there! My name is ${name} and I'm currently pursuing a degree in ${degree} at ${university}. I'm fluent in programming languages like ${languages.join(", ")} which are essential for building cutting-edge AI applications.`); <br />
-    console.log(`My primary focus is on developing ${interests.join(", ")} using my knowledge and experience in data science and AI engineering.`); <br />
-    console.log(`I'm skilled in data analysis using tools like ${tools.join(", ")} and I'm always looking to improve my skills in these areas.`); <br />
-    console.log(`If you're looking for someone who is passionate about data science and AI engineering, please don't hesitate to get in touch with me!`); <br />
-</p>
+            </h1>
+            <p className="home-about-body">
+              Hi there! I'm a system engineering student at Ecole centrale casablanca,
+              and I've been captivated by the world of programming since I first started. 
+              While I'm still learning, I'm proud to say that I'm quite comfortable with data analysis and AI engineering.
+
+             My interests lie in developing cutting-edge web technologies and products, as well as exploring the fascinating 
+             fields of deep learning and computer vision. I'm constantly seeking out new challenges and opportunities to apply 
+              my skills in Python and JAVA to build innovative products that can make a real impact in the world. Thanks for taking 
+              the time to get to know me a little better!
+                
+              Hi there! I'm a system engineering student at Ecole centrale casablanca,
+              and I've been captivated by the world of programming since I first started...🤷‍♂️
+              <br />
+              <br />I am fluent in classics like
+                <b className="purple"> Javascript and Python. </b>
+              </i>
+              <br />
+              <br />
+              My field of Interest's are &nbsp;
+              <i>
+                <b className="purple">Data analysis </b> and
+                {" "}
+                <b className="purple">
+                  AI engineering
+                </b>
+              </i>
+              <br />
+              <br />
+              Whenever possible, I also apply my passion for developing products
+              with <b className="purple">Node.js</b> and
+              <i>
+                <b className="purple">
+                  {" "}
+                  Modern Javascript Library and Frameworks
+                </b>
+              </i>
+              &nbsp; like
+              <i>
+                <b className="purple"> React.js and Next.js</b>
               </i>
             </p>
           </Col>
@@ -49,7 +75,7 @@ function Home2() {
             <ul className="home-about-social-links">
               <li className="social-icons">
                 <a
-                  href="https://github.com/badreddinesaadioui"
+                  href="https://github.com/soumyajit4419"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -59,7 +85,7 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://twitter.com/prepakid"
+                  href="https://twitter.com/Soumyajit4419"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -69,7 +95,7 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://www.linkedin.com/in/badreddine-saadioui"
+                  href="https://www.linkedin.com/in/soumyajit4419/"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -79,7 +105,7 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://www.instagram.com/prepakid"
+                  href="https://www.instagram.com/soumyajit4419"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour home-social-icons"
