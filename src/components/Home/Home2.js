@@ -17,34 +17,20 @@ function Home2() {
           <Col md={8} className="home-about-description">
             <h1 style={{ fontSize: "2.6em" }}>
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
-            </h1>
-            <p className="home-about-body">
-              I fell in love with programming and I have at least learnt
-              something, I think… 🤷‍♂️
-              <br />
-              <br />I am fluent in classics like
-              <i>
-                <b className="purple"> JAVA, C, Javascript and Python. </b>
-              </i>
-              <br />
-              <br />
-              My field of Interest's are building new &nbsp;
-              <i>
-                <b className="purple">Web Technologies and Products </b> and
-                also in areas related to{" "}
-                <b className="purple">
-                  Deep Learning and Computer Vision.
-                </b>
-              </i>
-              <br />
-              <br />
-              Whenever possible, I also apply my passion for developing products
-              with <b className="purple">Python</b> and
-              <i>
-                <b className="purple">
-                  {" "}
-                  JAVA.
-                </b>
+<h1> Introducing Myself</h1>
+<p className="home-about-body">
+    const name = "Your Name"; <br />
+    const degree = "System Engineering"; <br />
+    const university = "Ecole Centrale Casablanca"; <br />
+    const languages = ["Python"]; <br />
+    const interests = ["AI-based Products and Services", "Deep Learning", "Computer Vision"]; <br />
+    const tools = ["Pandas", "NumPy", "Scikit-Learn"]; <br />
+    <br />
+    console.log(`Hi there! My name is ${name} and I'm currently pursuing a degree in ${degree} at ${university}. I'm fluent in programming languages like ${languages.join(", ")} which are essential for building cutting-edge AI applications.`); <br />
+    console.log(`My primary focus is on developing ${interests.join(", ")} using my knowledge and experience in data science and AI engineering.`); <br />
+    console.log(`I'm skilled in data analysis using tools like ${tools.join(", ")} and I'm always looking to improve my skills in these areas.`); <br />
+    console.log(`If you're looking for someone who is passionate about data science and AI engineering, please don't hesitate to get in touch with me!`); <br />
+</p>
               </i>
             </p>
           </Col>
