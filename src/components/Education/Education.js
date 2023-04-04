@@ -53,6 +53,8 @@ function Education() {
     <p>
       Option : Science mathématiques B
     </p>
+  </VerticalTimelineElement>
+</VerticalTimeline>
   );
 }
 
