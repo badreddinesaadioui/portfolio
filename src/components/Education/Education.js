@@ -18,23 +18,26 @@ function Education() {
     iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
     icon={<IoMdSchool />}
   >
-    <h3 className="vertical-timeline-element-title">ENSEEIHT N7 - SN | Computer science Student</h3>
-    <h4 className="vertical-timeline-element-subtitle">Toulouse, France</h4>
+    <h3 className="vertical-timeline-element-title">ECC CENTRALE CASABLANCA | system engineering Student</h3>
+    <h4 className="vertical-timeline-element-subtitle">Casablanca, Morocco</h4>
     <p>
-      I joined The École nationale supérieure d'électrotechnique, d'électronique, d'informatique, d'hydraulique et des télécommunications (ENSEEIHT) which is a French engineering school (Grande École) which offers Computer Science and Telecommunications.
+      I joined The ÉCOLE CENTRALE CASABLANCA ECC which is a French/Morroccan engineering school (Grande École) that provides a broad-based education encompassing a wide range of subjects.
       
     </p>
   </VerticalTimelineElement>
   <VerticalTimelineElement
     className="vertical-timeline-element--work"
-    date="2020 - 2022"
+    contentStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+    contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
+    date="2020 - 2020"
     iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
     icon={<IoMdSchool />}
   >
-    <h3 className="vertical-timeline-element-title">CPGE Saint-Benoit Angers | MPSI-PSI </h3>
-    <h4 className="vertical-timeline-element-subtitle">Angers, France</h4>
+    <h3 className="vertical-timeline-element-title">ECC CENTRALE CASABLANCA | system engineering Student</h3>
+    <h4 className="vertical-timeline-element-subtitle">Casablanca, Morocco</h4>
     <p>
-      The course is a balance between mathematics, physical sciences, computer science and industrial sciences, which ideally prepares for future engineering professions.
+      I joined The ÉCOLE CENTRALE CASABLANCA ECC which is a French/Morroccan engineering school (Grande École) that provides a broad-based education encompassing a wide range of subjects.
+      
     </p>
   </VerticalTimelineElement>
 
