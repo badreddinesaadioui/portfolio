@@ -2,7 +2,7 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "../Projects/ProjectCards";
 import Particle from "../Particle";
-import graphicdesign from "../../Assets/Interests/graphicdesign.png";
+import graphic from "../../Assets/Interests/graphic.png";
 import bodybuilding from "../../Assets/Interests/bodybuilding.png";
 import coding from "../../Assets/Interests/coding.png";
 import science from "../../Assets/Interests/science.png";
@@ -22,7 +22,7 @@ function Interests() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={graphicdesign}
+              imgPath={graphic}
               isBlog={false}
               title="Graphic design"
               description="Having always been interested in art, I have developed a strong passion for graphic design and its crucial role in the field of marketing. Whether it's creating eye-catching logos or designing captivating ads, I am committed to using my skills to deliver visually appealing designs that effectively promote brands and products."
