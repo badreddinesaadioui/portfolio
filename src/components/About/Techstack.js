@@ -4,12 +4,10 @@ import {
   DiJavascript1,
   DiReact,
   DiPython,
-  DiJava,
 
   
 } from "react-icons/di";
 import {
-  SiScipy,
   SiOpencv,
   SiTensorflow,
   SiKeras,
@@ -23,13 +21,7 @@ function Techstack() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
       <Col xs={4} md={2} className="tech-icons">
-        <DiJava />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiJavascript1 />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiReact />
+        <DiPython />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiOpencv />
@@ -53,10 +45,11 @@ function Techstack() {
         <SiNumpy />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiPython />
+        <DiJavascript1 />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiScipy />
+        <DiReact />
+      </Col>
       </Col>
     </Row>
   );
