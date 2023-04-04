@@ -1,52 +1,50 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
 import {
+  DiHtml5,
+  DiCss3,
   DiJavascript1,
-  DiReact,
-  DiNodejs,
-  DiPostgresql,
-  DiPython,
-  DiGit,
-  DiJava,
-  DiDjango
+  DiMysql,
+  DiMatplotlib,
+  DiPandas,
+  DiScikitLearn,
+  DiPytorch,
+  DiTensorflow,
+  DiOpencv,
 } from "react-icons/di";
-import {
-  SiScipy,
-  SiNextdotjs,
-} from "react-icons/si";
 
 function Techstack() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
       <Col xs={4} md={2} className="tech-icons">
-        <DiJava />
+        <DiHtml5 />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <DiCss3 />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiJavascript1 />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiNodejs />
+        <DiMysql />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiReact />
+        <DiMatplotlib />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiPostgresql />
+        <DiPandas />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiNextdotjs />
+        <DiScikitLearn />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiGit />
+        <DiPytorch />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiDjango />
+        <DiTensorflow />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiPython />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiScipy />
+        <DiOpencv />
       </Col>
     </Row>
   );
