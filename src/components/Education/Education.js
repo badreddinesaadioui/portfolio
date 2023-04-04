@@ -29,7 +29,7 @@ function Education() {
     className="vertical-timeline-element--work"
     contentStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
     contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
-    date="2020 - 2020"
+    date="2020 - 2022"
     iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
     icon={<IoMdSchool />}
   >
@@ -44,7 +44,7 @@ function Education() {
     className="vertical-timeline-element--work"
     contentStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
     contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
-    date="2020 - 2020"
+    date="2019 - 2020"
     iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
     icon={<IoMdSchool />}
   >
