@@ -2,14 +2,14 @@ import React, { useState, useEffect } from "react";
 import { Container, Row } from "react-bootstrap";
 import Button from "react-bootstrap/Button";
 import Particle from "../Particle";
-import pdf from "../../Assets/../Assets/Abdelmouhaimen_Sarhane.pdf";
+import pdf from "../../Assets/../Assets/CV_BADREDDINESAADIOUI_ECC.pdf";
 import { AiOutlineDownload } from "react-icons/ai";
 import { Document, Page, pdfjs } from "react-pdf";
 import "react-pdf/dist/esm/Page/AnnotationLayer.css";
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`;
 
 const resumeLink =
-  "https://sarhane.com/static/media/Abdelmouhaimen_Sarhane.6035337128a141c1540f.pdf";
+  "https://sarhane.com/static/media/CV_BADREDDINESAADIOUI_ECC.6035337128a141c1540f.pdf";
 
 function ResumeNew() {
   const [width, setWidth] = useState(1200);
