@@ -7,6 +7,9 @@ import {
   SiAdobeindesign,
   SiCanva,
   SiBlender,
+  SiFigma,
+  SiAdobexd,
+  SiAdobeaudition,
   
 } from "react-icons/si";
 
@@ -14,6 +17,9 @@ import {
 function Toolsdesign() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiFigma />
+      </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiAdobeaftereffects />
       </Col>
@@ -31,6 +37,12 @@ function Toolsdesign() {
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiCanva />
+        </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiAdobexd />
+        </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiAdobeaudition />
         </Col>
     </Row>
   );
