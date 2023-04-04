@@ -24,7 +24,7 @@ function ComingSoon() {
                 <strong className="main-name"> under Maintenance</strong>
               </h1>
               <br/><br/>
-              <h4>  Check in the meantime this website for other information : https://abdosarhane.wixsite.com/welcome/engagement</h4>
+              <h4>  Check in the meantime this website for other information : https://www.linkedin.com/in/badreddine-saadioui-624583257/</h4>
 
               <div style={{ padding: 50, textAlign: "left" }}>
                 <Type />
