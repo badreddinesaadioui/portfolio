@@ -40,20 +40,19 @@ function Education() {
       
     </p>
   </VerticalTimelineElement>
-
-
   <VerticalTimelineElement
     className="vertical-timeline-element--work"
-    date="2020"
+    contentStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+    contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
+    date="2020 - 2020"
     iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
     icon={<IoMdSchool />}
   >
-    <h3 className="vertical-timeline-element-title">High school diploma | Mention très bien</h3>
+    <h3 className="vertical-timeline-element-title"> High School Diploma | Mention très bien </h3>
     <h4 className="vertical-timeline-element-subtitle">Casablanca, Morocco</h4>
     <p>
       Option : Science mathématiques B
     </p>
-  </VerticalTimelineElement>
 </VerticalTimeline>
   );
 }
