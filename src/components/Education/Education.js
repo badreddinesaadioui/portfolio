@@ -48,10 +48,10 @@ function Education() {
     iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
     icon={<IoMdSchool />}
   >
-    <h3 className="vertical-timeline-element-title"> High School Diploma | Mention très bien </h3>
+    <h3 className="vertical-timeline-element-title"> LYCEE AZHAR ERRIAD 2 | High School Diploma </h3>
     <h4 className="vertical-timeline-element-subtitle">Casablanca, Morocco</h4>
     <p>
-      Option : Science mathématiques B
+      Option : Science mathématiques B (Mention très bien)
     </p>
   </VerticalTimelineElement>
 </VerticalTimeline>
