@@ -8,8 +8,8 @@ function AboutCard() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
-            Hi Everyone, I am <span className="purple">Abdelmouhaimen Sarhane </span>
-            <br />I am first year computer science engineering student at INP-ENSEEIHT. Interested in Artificial Intelligence and data science because of the mixture of applied mathematics, modelization, data analysis and software engineering. My curiosity towards science and new technologies is growing and supports my engagement to broaden my knowledge and build my skills.
+            Hi Everyone, I am <span className="purple">Badreddine Saadioui </span>
+            <br />I am first year system engineering student at ECC CENTRALE CASABLANCA. Interested in Artificial Intelligence and data science because of the mixture of applied mathematics, modelization, data analysis and software engineering. My curiosity towards science and new technologies is growing and supports my engagement to broaden my knowledge and build my skills.
 
 
             <br />
@@ -20,20 +20,20 @@ function AboutCard() {
           </p>
           <ul>
             <li className="about-activity">
-              <ImPointRight /> Playing Games
+              <ImPointRight /> Graphic design
             </li>
             <li className="about-activity">
               <ImPointRight /> Coding
             </li>
             <li className="about-activity">
-              <ImPointRight /> Travelling
+              <ImPointRight /> Sports
             </li>
           </ul>
 
           <p style={{ color: "rgb(96, 136, 224)" }}>
-            "Strive to build things that make a difference!"{" "}
+            "Empower your imagination to transform the impossible into the inevitable!"{" "}
           </p>
-          <footer className="blockquote-footer">Abdelmouhaimen</footer>
+          <footer className="blockquote-footer"> Badreddine Saadioui</footer>
         </blockquote>
       </Card.Body>
     </Card>
