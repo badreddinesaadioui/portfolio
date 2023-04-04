@@ -1,18 +1,32 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
 import {
-  SiLinux,
+  SiGooglecolab,
   SiVisualstudiocode,
-  SiNetlify,
-  SiHeroku,
-  SiUnity,
+  SiAdobeaftereffects,
+  SiAdobeillustrator,
+  SiAdobephotoshop,
+  SiAdobeindesign,
+  SiCanva,
+  SiBlender,
+  SiMysql,
+  
 } from "react-icons/si";
+import {
+GrHadoop
+} from "react-icons/gr";
 
 function Toolstack() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
       <Col xs={4} md={2} className="tech-icons">
-        <SiLinux />
+        <SiGooglecolab />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiMysql />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <GrHadoop />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiVisualstudiocode />
@@ -21,11 +35,26 @@ function Toolstack() {
         <SiNetlify />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiUnity />
+        <SiAdobeaftereffects />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiHeroku />
+        <SiAdobeillustrator />
       </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiAdobephotoshop />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiAdobeindesign />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiCanva />
+              </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiBlender />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiCanva />
+        </Col>
     </Row>
   );
 }
