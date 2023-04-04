@@ -10,6 +10,7 @@ import {
   SiCanva,
   SiBlender,
   SiMysql,
+  SiNetlify,
   
 } from "react-icons/si";
 import {
