@@ -3,12 +3,6 @@ import { Col, Row } from "react-bootstrap";
 import {
   SiGooglecolab,
   SiVisualstudiocode,
-  SiAdobeaftereffects,
-  SiAdobeillustrator,
-  SiAdobephotoshop,
-  SiAdobeindesign,
-  SiCanva,
-  SiBlender,
   SiMysql,
   SiNetlify,
   
@@ -35,27 +29,6 @@ function Toolstack() {
       <Col xs={4} md={2} className="tech-icons">
         <SiNetlify />
       </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiAdobeaftereffects />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiAdobeillustrator />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiAdobephotoshop />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiAdobeindesign />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiCanva />
-              </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiBlender />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiCanva />
-        </Col>
     </Row>
   );
 }
