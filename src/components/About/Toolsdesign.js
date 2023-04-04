@@ -36,4 +36,4 @@ function Toolsdesign() {
   );
 }
 
-export default Toolstack;
+export default Toolsdesign;
