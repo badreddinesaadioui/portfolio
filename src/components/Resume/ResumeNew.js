@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import { Container, Row } from "react-bootstrap";
 import Button from "react-bootstrap/Button";
 import Particle from "../Particle";
@@ -31,4 +31,3 @@ function ResumeNew() {
 }
 
 export default ResumeNew;
-
