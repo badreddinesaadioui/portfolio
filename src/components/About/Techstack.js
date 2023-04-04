@@ -1,51 +1,67 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
 import {
-  FaHtml5,
-  FaCss3Alt,
-  FaJsSquare,
-  FaPython,
-  FaChartLine,
-  FaDatabase
-} from "react-icons/fa";
-import { DiScikitLearn, DiPytorch, DiTensorflow, DiOpencv } from "react-icons/di";
+  DiJavascript1,
+  DiReact,
+  DiNodejs,
+  DiPostgresql,
+  DiPython,
+  DiGit,
+  DiJava,
+  DiDjango,
+
+  
+} from "react-icons/di";
+import {
+  SiScipy,
+  SiNextdotjs,
+  SiOpencv,
+  SiTensorflow,
+  SiKeras,
+  SiPandas,
+  SiPytorch,
+  SiScikitlearn,
+  SiNumpy,
+} from "react-icons/si";
 
 function Techstack() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
       <Col xs={4} md={2} className="tech-icons">
-        <FaHtml5 />
+        <DiJava />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <FaCss3Alt />
+        <DiJavascript1 />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <FaJsSquare />
+        <SiOpencv />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <FaPython />
+        <SiTensorflow />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <FaChartLine />
+        <SiKeras />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <FaDatabase />
+        <SiPytorch/>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiScikitLearn />
+        <SiPandas />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiPytorch />
+        <SiScikitlearn/>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiTensorflow />
+        <SiNumpy />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiOpencv />
+        <DiPython />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiScipy />
       </Col>
     </Row>
   );
 }
 
 export default Techstack;
-
