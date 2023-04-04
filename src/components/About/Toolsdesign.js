@@ -9,6 +9,7 @@ import {
   SiBlender,
   SiFigma,
   SiAdobexd,
+  SiAutodesk,
   SiAdobeaudition,
   
 } from "react-icons/si";
@@ -43,6 +44,9 @@ function Toolsdesign() {
         </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiAdobeaudition />
+        </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiAutodesk />
         </Col>
     </Row>
   );
