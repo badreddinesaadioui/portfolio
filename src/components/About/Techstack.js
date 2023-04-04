@@ -3,18 +3,13 @@ import { Col, Row } from "react-bootstrap";
 import {
   DiJavascript1,
   DiReact,
-  DiNodejs,
-  DiPostgresql,
   DiPython,
-  DiGit,
   DiJava,
-  DiDjango,
 
   
 } from "react-icons/di";
 import {
   SiScipy,
-  SiNextdotjs,
   SiOpencv,
   SiTensorflow,
   SiKeras,
@@ -32,6 +27,9 @@ function Techstack() {
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiJavascript1 />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <DiReact />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiOpencv />
