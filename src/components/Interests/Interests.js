@@ -2,8 +2,8 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "../Projects/ProjectCards";
 import Particle from "../Particle";
-import graphicdesign from "../../Assets/Interests/graphicdesign.jpg";
-import bodybuilding from "../../Assets/Interests/bodybuilding.jpg";
+import graphicdesign from "../../Assets/Interests/graphicdesign.png";
+import bodybuilding from "../../Assets/Interests/bodybuilding.png";
 import coding from "../../Assets/Interests/coding.png";
 import science from "../../Assets/Interests/science.png";
 
