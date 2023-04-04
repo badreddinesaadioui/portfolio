@@ -2,8 +2,8 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "../Projects/ProjectCards";
 import Particle from "../Particle";
-import gaming from "../../Assets/Interests/gaming.png";
-import sports from "../../Assets/Interests/sports.png";
+import graphicdesign from "../../Assets/Interests/graphicdesign.jpeg";
+import bodybuilding from "../../Assets/Interests/bodybuilding.jpeg";
 import coding from "../../Assets/Interests/coding.png";
 import science from "../../Assets/Interests/science.png";
 
@@ -17,24 +17,24 @@ function Interests() {
           What Else <strong className="purple"> I do </strong>
         </h1>
         <p style={{ color: "white" }}>
-          Being able to study at school, exercise my body and entertain myself with several activities is an important key to productivity and creativity, that is why I make sure to stay productive and enjoy my time as an engineering student
+          Balancing intellectual pursuits, physical exercise, and recreation is key to productivity and creativity. As an engineering student, I prioritize a sound mind and healthy body to reach my full potential.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={gaming}
+              imgPath={graphicdesign}
               isBlog={false}
-              title="Video Games"
-              description="I am passionate about competitive video games, especially FPS games, which requires strategy and good reflexes. I have been an in game leader for competitive teams in order to deploy strategies to win our games."
+              title="Graphic design"
+              description="Having always been interested in art, I have developed a strong passion for graphic design and its crucial role in the field of marketing. Whether it's creating eye-catching logos or designing captivating ads, I am committed to using my skills to deliver visually appealing designs that effectively promote brands and products."
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={sports}
+              imgPath={bodybuilding}
               isBlog={false}
-              title="Sports"
-              description="Since my childhood, I have been passionate about sports especially football."
+              title="Bodybuilding"
+              description="I am deeply passionate about fitness, and my interest in bodybuilding has allowed me to appreciate its ability to shape and sculpt the body. My unwavering commitment to maintaining a healthy lifestyle involves pushing my physical limits at the gym and adhering to a strict nutrition plan. Moreover, to augment my physical prowess and self-discipline, I have also pursued martial arts training."
             />
           </Col>
 
