@@ -23,10 +23,10 @@ function Projects() {
             <ProjectCard
               imgPath={postgresql}
               isBlog={false}
-              title="A PostgreSQL Administrator"
-              description="PostgreSQL Browser is a web-based PostgreSQL database admin tool written in python using Flask, HTML, CSS, JavaScript. It is a tool that will help you view your database from Heroku and edit them directly with a more friendly interface. This project was part of my final project to validate my cs50x certification."
-              demoLink="https://spark.adobe.com/video/rv3QwkwFtNMfx"
-              ghLink="https://github.com/Abdelmouhaimen/browser"
+              title="Detection Of Microcalcifications In Mammography"
+              description="In this project, we conducted a comprehensive analysis of various machine learning models, including KNN, SVM, and random forest, with different parameter settings and combinations, to accurately detect microcalcifications on mammograms. Early detection of microcalcifications is crucial in breast cancer screening. However, the dataset used in this project was highly imbalanced, which presented a significant challenge. This project was supervised by ECC CODING WEEK."
+              demoLink="https://youtu.be/hXpkJLSBqd0"
+              ghLink="https://github.com/badreddinesaadioui/Detection-Of-Microcalcifications-In-Mammography"
             />
           </Col>
 
@@ -34,8 +34,9 @@ function Projects() {
             <ProjectCard
               imgPath={tipe}
               isBlog={false}
-              title="TIPE : Heart Rate Monitor"
-              description="Supervised personal initiative project or TIPE is a common test to most entrance examinations to the Grandes Ecoles of Science. During my preparatory classes, I made a heart rate monitor as a project for my TIPE. The device measured heart rate using a technique called Photoplethysmography. I had to make the sensor using IR LED also photodiode, also I had make the electronic circuit to ensure the output contains only the alternative signal from heart pulse. Finally I did the post-processing using Arduino kit to visualise the heart rate."
+              title="TIPE Genetic Disease Propagation: A Population Modeling and Analysis Approach."
+              description="Supervised personal initiative project or TIPE is a common test to most entrance examinations to the Grandes Ecoles of Science. Throughout my project, I explored the relationship between genetics, statistics, and the spread of diseases. I began by delving into the importance of probabilities in genetics and how they are vital for genetic studies. From there, I went on to write a Python code to model the spread of a disease over time. Using this code, I was able to investigate the statistical evolution of a general hereditary disease, and gain insight into how these diseases'frequency vary over time."
+              ghLink="https://github.com/badreddinesaadioui/TIPE"
             />
           </Col>
 
@@ -43,8 +44,8 @@ function Projects() {
             <ProjectCard
               imgPath={myjobglasses}
               isBlog={false}
-              title="MyJobGlasses Certificate"
-              description="The certificate is a document designed by My Job Glasses to promote the approach of young people in their orientation. It attests to their ability to contact and meet mentors on the My Job Glasses mentoring tool to: find out more about a job or training | develop their professional network | expand their knowledge of an industry or company | get a professional opportunity such as an internship or work-study"           
+              title="PLBD : Traffic Optimization"
+              description="The Project Learning by Doing is an annual project that encourages teamwork and leadership development among a team of five members with diverse nationalities. In this project, we utilized OpenCV to analyze traffic images and extract traffic density information, which enabled us to develop an optimization code that dynamically adjusted traffic light timings to improve traffic flow and alleviate congestion in real-time. To assess the effectiveness of our optimization code, we compared our model with both a deep learning-based approach and a traditional timing system using a traffic simulator. Our results highlighted the potential of computer vision and machine learning techniques to optimize traffic control systems."           
             />
           </Col>
 
