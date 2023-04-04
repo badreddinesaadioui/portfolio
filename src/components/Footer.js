@@ -14,7 +14,7 @@ function Footer() {
     <Container fluid className="footer">
       <Row>
         <Col md="4" className="footer-copywright">
-          <h3>Abdelmouhaimen Sarhane ePortfolio</h3>
+          <h3>Badreddine Saadioui ePortfolio</h3>
         </Col>
         <Col md="4" className="footer-copywright">
           <h3>Copyright © {year} AS</h3>
@@ -23,7 +23,7 @@ function Footer() {
           <ul className="footer-icons">
             <li className="social-icons">
               <a
-                href="https://github.com/Abdelmouhaimen"
+                href="https://github.com/badreddinesaadioui"
                 style={{ color: "white" }}
                 target="_blank" 
                 rel="noopener noreferrer"
@@ -33,7 +33,7 @@ function Footer() {
             </li>
             <li className="social-icons">
               <a
-                href="https://twitter.com/KyNgiaN"
+                href="https://twitter.com/badrsaadioui"
                 style={{ color: "white" }}
                 target="_blank" 
                 rel="noopener noreferrer"
@@ -43,7 +43,7 @@ function Footer() {
             </li>
             <li className="social-icons">
               <a
-                href="https://www.linkedin.com/in/Abdelmouhaimen"
+                href="https://www.linkedin.com/in/badreddine-saadioui-624583257/"
                 style={{ color: "white" }}
                 target="_blank" 
                 rel="noopener noreferrer"
@@ -53,7 +53,7 @@ function Footer() {
             </li>
             <li className="social-icons">
               <a
-                href="https://www.instagram.com/KyNgiaN"
+                href="https://www.instagram.com/prepakid"
                 style={{ color: "white" }}
                 target="_blank" 
                 rel="noopener noreferrer"
