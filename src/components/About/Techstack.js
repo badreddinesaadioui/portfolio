@@ -1,38 +1,35 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
 import {
-  DiHtml5,
-  DiCss3,
-  DiJavascript1,
-  DiMysql,
-  DiMatplotlib,
-  DiPandas,
-  DiScikitLearn,
-  DiPytorch,
-  DiTensorflow,
-  DiOpencv,
-} from "react-icons/di";
+  FaHtml5,
+  FaCss3Alt,
+  FaJsSquare,
+  FaPython,
+  FaChartLine,
+  FaDatabase
+} from "react-icons/fa";
+import { DiScikitLearn, DiPytorch, DiTensorflow, DiOpencv } from "react-icons/di";
 
 function Techstack() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
       <Col xs={4} md={2} className="tech-icons">
-        <DiHtml5 />
+        <FaHtml5 />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiCss3 />
+        <FaCss3Alt />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiJavascript1 />
+        <FaJsSquare />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiMysql />
+        <FaPython />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiMatplotlib />
+        <FaChartLine />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiPandas />
+        <FaDatabase />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiScikitLearn />
@@ -51,3 +48,4 @@ function Techstack() {
 }
 
 export default Techstack;
+
