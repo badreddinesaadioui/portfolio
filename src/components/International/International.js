@@ -27,7 +27,7 @@ function International() {
               isBlog={false}
               title="Merch design"
               description="Over the past three years, my fervent interest in fashion has led me to actively pursue merch design. My primary focus as a designer is to express my thoughts and ideas through apparel, encompassing a diverse range of products such as realistic 2D and 3D clothing including varsity jackets, bombers, hoodies, t-shirts, and other merchandise. During this time, I have gained valuable experience by completing numerous freelance design projects, in addition to creating custom clothing for local schools. To view a selection of my designs and evaluate their quality, I invite you to explore my portfolio on Art Station.
-              artstationLink={"https://badrsonicsaad.artstation.com/projects/Zal2m1"}
+              artstationLink="https://badrsonicsaad.artstation.com/projects/Zal2m1"
             />
           </Col>
           <Col md={4} className="project-card">
