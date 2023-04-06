@@ -4,9 +4,6 @@ import ProjectCard from "../Projects/ProjectCards";
 import Particle from "../Particle";
 import merch from "../../Assets/International/merch.png";
 import travel from "../../Assets/International/travel.png";
-import travel from "../../Assets/International/travel.png";
-import travel from "../../Assets/International/travel.png";
-import travel from "../../Assets/International/travel.png";
 
 
 function International() {
