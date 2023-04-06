@@ -3,6 +3,7 @@ import Card from "react-bootstrap/Card";
 import Button from "react-bootstrap/Button";
 import { CgWebsite } from "react-icons/cg";
 import { BsGithub } from "react-icons/bs";
+import { FaArtstation } from "react-icons/fa";
 
 
 function ProjectCards(props) {
@@ -20,6 +21,17 @@ function ProjectCards(props) {
           {props.isBlog ? "Blog" : "GitHub"}
           </Button>
           
+        )}
+        {props.artstationLink && ( // Added ArtStation button
+          <Button
+            variant="primary"
+            href={props.artstationLink}
+            target="_blank"
+            style={{ marginLeft: "10px" }}
+          >
+            <FaArtstation /> &nbsp;
+            {"ArtStation"}
+          </Button>
         )}
         {"\n"}
         {"\n"}
