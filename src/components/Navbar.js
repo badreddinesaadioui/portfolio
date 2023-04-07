@@ -17,9 +17,9 @@ import { CgFileDocument } from "react-icons/cg";
 import { IoMdSchool } from "react-icons/io";
 
 
-import { MdOutlineDesignServices } from "react-icons/mdoutline";
+import { MdOutlineDesignServices } from "react-icons/md";
 import {GrCertificate} from "react-icons/gr";
-import { MdOutlineInterests } from "react-icons/mdoutline";
+import { MdOutlineInterests } from "react-icons/md";
 
 
 
