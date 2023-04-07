@@ -14,10 +14,12 @@ import {
 } from "react-icons/ai";
 
 import { CgFileDocument } from "react-icons/cg";
-import { FaEnvira } from "react-icons/fa";
-import { GiWorld } from "react-icons/gi";
 import { IoMdSchool } from "react-icons/io";
-import { MdOutlineSportsEsports } from "react-icons/md";
+
+
+import { MdOutlineDesignServices } from "react-icons/mdoutline";
+import {GrCertificate} from "react-icons/gr";
+import { MdOutlineInterests } from "react-icons/mdoutline";
 
 
 
@@ -114,7 +116,7 @@ function NavBar() {
                 to="/international"
                 onClick={() => updateExpanded(false)}
               >
-                <GiWorld style={{ marginBottom: "2px" }} /> Design
+                <MdOutlineDesignServices style={{ marginBottom: "2px" }} /> Design
               </Nav.Link>
             </Nav.Item>
 
@@ -124,7 +126,7 @@ function NavBar() {
                 to="/civic"
                 onClick={() => updateExpanded(false)}
               >
-                <FaEnvira style={{ marginBottom: "2px" }} /> Certification
+                <GrCertificate style={{ marginBottom: "2px" }} /> Certification
               </Nav.Link>
             </Nav.Item>
 
@@ -134,7 +136,7 @@ function NavBar() {
                 to="/interests"
                 onClick={() => updateExpanded(false)}
               >
-                <MdOutlineSportsEsports style={{ marginBottom: "2px" }} /> Sports & Interests
+                <MdOutlineInterests style={{ marginBottom: "2px" }} />  Interests
               </Nav.Link>
             </Nav.Item>
 
