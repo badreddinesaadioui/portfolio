@@ -18,7 +18,7 @@ import { IoMdSchool } from "react-icons/io";
 
 
 import { MdOutlineDesignServices } from "react-icons/md";
-import {GrCertificate} from "react-icons/gr";
+import {TbCertificate} from "react-icons/tb";
 import { CgGames } from 'react-icons/cg';
 
 
@@ -127,7 +127,7 @@ function NavBar() {
                 to="/civic"
                 onClick={() => updateExpanded(false)}
               >
-                <GrCertificate color='white' style={{ marginBottom: "2px" }} /> Certification
+                <TbCertificate style={{ marginBottom: "2px" }} /> Certification
               </Nav.Link>
             </Nav.Item>
 
