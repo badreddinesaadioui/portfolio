@@ -65,7 +65,8 @@ function International() {
               imgPath={ui}
               isBlog={false}
               title="UI/UX design"
-              description="UI and UX design play a pivotal role in crafting compelling and user-centric digital experiences. As a design professional, I have honed my expertise in this critical field through my completion of the Google UX Design Professional Certificate, which has provided me with a solid foundation and in-depth understanding of best practices. Furthermore, I have actively participated in a UI/UX design competition, the L'Oréal Brandstorming event, showcasing my skills and creativity in creating innovative designs. You can view examples of my work on my GitHub profile, highlighting my commitment to staying updated with the latest trends and techniques in UI and UX design."           
+              description="UI and UX design play a pivotal role in crafting compelling and user-centric digital experiences. As a design professional, I have honed my expertise in this critical field through my completion of the Google UX Design Professional Certificate, which has provided me with a solid foundation and in-depth understanding of best practices. Furthermore, I have actively participated in a UI/UX design competition, the L'Oréal Brandstorming event, showcasing my skills and creativity in creating innovative designs. You can view examples of my work on my GitHub profile, highlighting my commitment to staying updated with the latest trends and techniques in UI and UX design."  
+              artstationLink="https://badrsonicsaad.artstation.com/projects/ao0Z82"
             />
           </Col>
           <Col md={4} className="project-card">
@@ -74,7 +75,9 @@ function International() {
               isBlog={false}
               title="Sponsorship proposal design"
               description="Sponsorship proposal or business development folders are a creative tool that I utilize to captivate the minds of potential clients. I have had extensive experience in creating these folders as part of my involvement with the ECC Bureau des Sports, where we regularly organize events and seek sponsorship. These folders are carefully crafted to include various elements such as event regulations, invitations, badges, event posters, and event structure. The goal is to create a visually appealing and comprehensive package that effectively communicates the details and benefits of the event, enticing sponsors to participate and support our initiatives. Through my experience, I have developed skills in designing these folders to be engaging and persuasive, showcasing the value and opportunities of the events we organize to potential sponsors and participants."           
+              githubLink="https://github.com/badreddinesaadioui/Sponsorship-proposals"
             />
+          
           </Col>
         </Row>
       </Container>
