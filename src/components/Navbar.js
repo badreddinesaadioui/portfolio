@@ -114,7 +114,7 @@ function NavBar() {
                 to="/international"
                 onClick={() => updateExpanded(false)}
               >
-                <GiWorld style={{ marginBottom: "2px" }} /> International Mobility
+                <GiWorld style={{ marginBottom: "2px" }} /> Design
               </Nav.Link>
             </Nav.Item>
 
@@ -124,7 +124,7 @@ function NavBar() {
                 to="/civic"
                 onClick={() => updateExpanded(false)}
               >
-                <FaEnvira style={{ marginBottom: "2px" }} /> Civic Engagement
+                <FaEnvira style={{ marginBottom: "2px" }} /> Certification
               </Nav.Link>
             </Nav.Item>
 
