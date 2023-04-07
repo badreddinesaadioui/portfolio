@@ -19,7 +19,8 @@ import { IoMdSchool } from "react-icons/io";
 
 import { MdOutlineDesignServices } from "react-icons/md";
 import {GrCertificate} from "react-icons/gr";
-import { MdOutlineInterests } from "react-icons/md";
+import { CgGames } from 'react-icons/cg';
+
 
 
 
@@ -136,7 +137,7 @@ function NavBar() {
                 to="/interests"
                 onClick={() => updateExpanded(false)}
               >
-                <MdOutlineInterests style={{ marginBottom: "2px" }} />  Interests
+                <CgGames style={{ marginBottom: "2px" }} />  Interests
               </Nav.Link>
             </Nav.Item>
 
