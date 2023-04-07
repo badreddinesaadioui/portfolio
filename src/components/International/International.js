@@ -39,7 +39,8 @@ function International() {
               imgPath={graphicd}
               isBlog={false}
               title="graphic/ poster design"
-              description="As an artist from a young age, I have always had a love for drawing, and my passion for poster design has reignited that love. My primary goal as a designer is to create visually striking posters that are captivating and engaging to my audience. Through the use of tools like Procreate on iPad with Apple Pencil and Photoshop, I am able to bring my ideas to life with ease. Working as a designer for ECC Bureau des Arts, ECC Bureau des Sports, and ECC Junior Entreprises; this has given me the opportunity to gain valuable experience in designing posters and graphics for various events. For me, design is about more than just making something look good, it's about telling a story and evoking emotion."           
+              description="As an artist from a young age, I have always had a love for drawing, and my passion for poster design has reignited that love. My primary goal as a designer is to create visually striking posters that are captivating and engaging to my audience. Through the use of tools like Procreate on iPad with Apple Pencil and Photoshop, I am able to bring my ideas to life with ease. Working as a designer for ECC Bureau des Arts, ECC Bureau des Sports, and ECC Junior Entreprises; this has given me the opportunity to gain valuable experience in designing posters and graphics for various events. For me, design is about more than just making something look good, it's about telling a story and evoking emotion."  
+              artstationLink="https://badrsonicsaad.artstation.com/projects/qeJdBe"
             />
           </Col>
           <Col md={4} className="project-card">
@@ -47,7 +48,8 @@ function International() {
               imgPath={logod}
               isBlog={false}
               title="logo design"
-              description="Logos have always fascinated me for their ability to instantly communicate a brand's personality, values, and mission. Using design software like Adobe Illustrator and Procreate, I aim to create logos that are visually appealing and conceptually strong. With years of freelancing experience, I have honed my ability to identify the unique elements that set each brand apart and translate them into a memorable visual identity. In my logo design process, I also strive to tell a compelling brand story and build a strong brand identity."           
+              description="Logos have always fascinated me for their ability to instantly communicate a brand's personality, values, and mission. Using design software like Adobe Illustrator and Procreate, I aim to create logos that are visually appealing and conceptually strong. With years of freelancing experience, I have honed my ability to identify the unique elements that set each brand apart and translate them into a memorable visual identity. In my logo design process, I also strive to tell a compelling brand story and build a strong brand identity."
+              artstationLink="https://badrsonicsaad.artstation.com/projects/dKyB3e"
             />
           </Col>
           <Col md={4} className="project-card">
