@@ -8,6 +8,7 @@ import logod from "../../Assets/International/logod.png";
 import sm from "../../Assets/International/sm.png";
 import ui from "../../Assets/International/ui.png";
 import sp from "../../Assets/International/sp.png";
+import dr from "../../Assets/International/dr.png";
 
 
 function International() {
@@ -81,7 +82,7 @@ function International() {
           </Col>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={sp}
+              imgPath={dr}
               isBlog={false}
               title="Drawing"
               description="From a young age, drawing has been a fundamental aspect of my life. Inspired by cartoons and anime, I have always been captivated by the power of art to create stories and explore endless possibilities through imaginative combinations. As a result, I have developed some skills in drawing and honed my creativity, channeling my passion into my YouTube channel where I used to share some of my drawing process videos. Additionally, I invite you to visit my ArtStation profile to see a showcase of my artwork, which reflects my unwavering dedication to the world of drawing."
