@@ -127,7 +127,7 @@ function NavBar() {
                 to="/civic"
                 onClick={() => updateExpanded(false)}
               >
-                <GrCertificate style={{ marginBottom: "2px" }} /> Certification
+                <GrCertificate color='white' style={{ marginBottom: "2px" }} /> Certification
               </Nav.Link>
             </Nav.Item>
 
