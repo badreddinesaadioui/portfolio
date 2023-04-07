@@ -4,6 +4,7 @@ import Button from "react-bootstrap/Button";
 import { CgWebsite } from "react-icons/cg";
 import { BsGithub } from "react-icons/bs";
 import { FaArtstation } from "react-icons/fa";
+import { AiFillYoutube } from "react-icons/ai"; // Added YouTube icon
 
 
 function ProjectCards(props) {
@@ -17,12 +18,11 @@ function ProjectCards(props) {
         </Card.Text>
         {props.ghLink && (
           <Button variant="primary" href={props.ghLink} target="_blank">
-          <BsGithub /> &nbsp;
-          {props.isBlog ? "Blog" : "GitHub"}
+            <BsGithub /> &nbsp;
+            {props.isBlog ? "Blog" : "GitHub"}
           </Button>
-          
         )}
-        {props.artstationLink && ( // Added ArtStation button
+        {props.artstationLink && (
           <Button
             variant="primary"
             href={props.artstationLink}
@@ -33,11 +33,19 @@ function ProjectCards(props) {
             {"ArtStation"}
           </Button>
         )}
+        {props.youtubeLink && ( // Added YouTube button
+          <Button
+            variant="danger" // You can customize the variant as needed
+            href={props.youtubeLink}
+            target="_blank"
+            style={{ marginLeft: "10px" }}
+          >
+            <AiFillYoutube /> &nbsp;
+            {"YouTube"}
+          </Button>
+        )}
         {"\n"}
         {"\n"}
-
-        {/* If the component contains Demo link and if it's not a Blog then, it will render the below component  */}
-
         {!props.isBlog && props.demoLink && (
           <Button
             variant="primary"
