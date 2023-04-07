@@ -75,7 +75,7 @@ function International() {
               isBlog={false}
               title="Sponsorship proposal design"
               description="Sponsorship proposal are a creative tool that I utilize to captivate the minds of potential clients. I have had extensive experience in creating these folders as part of my involvement with the ECC Bureau des Sports, where we regularly organize events and seek sponsorship. These folders are carefully crafted to include various elements such as event regulations, invitations, badges, event posters, and event structure. The goal is to create a visually appealing and comprehensive package that effectively communicates the details and benefits of the event, enticing sponsors to participate and support our initiatives."           
-              githubLink="https://github.com/badreddinesaadioui/Sponsorship-proposals"
+              ghLink="https://github.com/badreddinesaadioui/Sponsorship-proposals"
             />
           
           </Col>
