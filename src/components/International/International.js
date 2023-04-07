@@ -86,6 +86,7 @@ function International() {
               title="Drawing"
               description="From a young age, drawing has been a fundamental aspect of my life. Inspired by cartoons and anime, I have always been captivated by the power of art to create stories and explore endless possibilities through imaginative combinations. As a result, I have developed some skills in drawing and honed my creativity, channeling my passion into my YouTube channel where I used to share some of my drawing process videos. Additionally, I invite you to visit my ArtStation profile to see a showcase of my artwork, which reflects my unwavering dedication to the world of drawing."
               artstationLink="https://badrsonicsaad.artstation.com/projects/PX6VbZ"
+              youtubeLink="https://www.youtube.com/@mounim3557"
             />
           
           </Col>
