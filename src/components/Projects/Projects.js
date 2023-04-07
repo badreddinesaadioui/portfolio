@@ -45,7 +45,8 @@ function Projects() {
               imgPath={traffic}
               isBlog={false}
               title="PLBD : Traffic Optimization"
-              description="The Project Learning by Doing is an annual project that encourages teamwork and leadership development among a team of five members with diverse nationalities. In this project, we utilized OpenCV to analyze traffic images and extract traffic density information, which enabled us to develop an optimization code that dynamically adjusted traffic light timings to improve traffic flow and alleviate congestion in real-time. To assess the effectiveness of our optimization code, we compared our model with both a deep learning-based approach and a traditional timing system using a traffic simulator. Our results highlighted the potential of computer vision and machine learning techniques to optimize traffic control systems."           
+              description="The Project Learning by Doing is an annual project that encourages teamwork and leadership development among a team of five members with diverse nationalities. In this project, we utilized OpenCV to analyze traffic images and extract traffic density information, which enabled us to develop an optimization code that dynamically adjusted traffic light timings to improve traffic flow and alleviate congestion in real-time. To assess the effectiveness of our optimization code, we compared our model with both a deep learning-based approach and a traditional timing system using a traffic simulator. Our results highlighted the potential of computer vision and machine learning techniques to optimize traffic control systems."  
+              ghLink="https://github.com/badreddinesaadioui/PLBD"
               />
           </Col>
 
