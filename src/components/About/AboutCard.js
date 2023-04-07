@@ -23,7 +23,7 @@ function AboutCard() {
               <ImPointRight /> Graphic design
             </li>
             <li className="about-activity">
-              <ImPointRight /> Coding
+              <ImPointRight /> Bodybuilding
             </li>
             <li className="about-activity">
               <ImPointRight /> Sports
@@ -31,7 +31,7 @@ function AboutCard() {
           </ul>
 
           <p style={{ color: "rgb(96, 136, 224)" }}>
-            "Empower your imagination to transform the impossible into the inevitable!"{" "}
+            "Empower your imagination to make the impossible inevitable!"{" "}
           </p>
           <footer className="blockquote-footer"> Badreddine Saadioui</footer>
         </blockquote>
