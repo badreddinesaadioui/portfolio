@@ -5,7 +5,7 @@ import { CgWebsite } from "react-icons/cg";
 import { BsGithub } from "react-icons/bs";
 import { FaArtstation } from "react-icons/fa";
 import { AiFillYoutube } from "react-icons/ai"; // Added YouTube icon
-import { IoLogoCoursera } from "react-icons/io"; // Added Coursera icon
+import { SiCoursera } from "react-icons/si"; // Added Coursera icon
 
 function ProjectCards(props) {
   return (
@@ -51,7 +51,7 @@ function ProjectCards(props) {
             target="_blank"
             style={{ marginLeft: "10px" }}
           >
-            <IoLogoCoursera /> &nbsp;
+            <SiCoursera /> &nbsp;
             {"Coursera"}
           </Button>
         )}
