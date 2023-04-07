@@ -23,21 +23,21 @@ function Home2() {
               <br />
               <br />I am currently studying
               <i>
-                <b className="purple"> AI engineering, data analytics, and data scrapping. </b>
+                <b className="purple"> System engineering and management </b>
               </i>
               <br />
               <br />
-              My field of Interest's are building new &nbsp;
+              My field of Interest's are &nbsp;
               <i>
-                <b className="purple">Web Technologies and Products </b> and
+                <b className="purple"> AI engineering, data analytics, and data scrapping, </b>
                 also in areas related to{" "}
                 <b className="purple">
-                  Deep Learning and Computer Vision.
+                  Building Web Technologies and products.
                 </b>
               </i>
               <br />
               <br />
-              Whenever possible, I also apply my passion for UX <b className="purple">Python</b> and
+              Whenever possible, I also apply my passion for UX/UI <b className="purple">Python</b> and
               <i>
                 <b className="purple">
                   {" "}
