@@ -114,7 +114,7 @@ function NavBar() {
             <Nav.Item>
               <Nav.Link
                 as={Link}
-                to="/international"
+                to="/design"
                 onClick={() => updateExpanded(false)}
               >
                 <MdOutlineDesignServices style={{ marginBottom: "2px" }} /> Design
@@ -124,7 +124,7 @@ function NavBar() {
             <Nav.Item>
               <Nav.Link
                 as={Link}
-                to="/civic"
+                to="/certification"
                 onClick={() => updateExpanded(false)}
               >
                 <FaCertificate style={{ marginBottom: "2px" }} /> Certification
