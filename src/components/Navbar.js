@@ -114,7 +114,7 @@ function NavBar() {
             <Nav.Item>
               <Nav.Link
                 as={Link}
-                to="/international"
+                to="/Design"
                 onClick={() => updateExpanded(false)}
               >
                 <MdOutlineDesignServices style={{ marginBottom: "2px" }} /> Design
