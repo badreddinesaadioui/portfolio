@@ -2,16 +2,16 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "../Projects/ProjectCards";
 import Particle from "../Particle";
-import merch from "../../Assets/International/Merch.png";
-import graphicd from "../../Assets/International/graphicd.png";
-import logod from "../../Assets/International/logod.png";
-import sm from "../../Assets/International/sm.png";
-import ui from "../../Assets/International/ui.png";
-import sp from "../../Assets/International/sp.png";
-import dr from "../../Assets/International/dr.png";
+import merch from "../../Assets/design/Merch.png";
+import graphicd from "../../Assets/design/graphicd.png";
+import logod from "../../Assets/design/logod.png";
+import sm from "../../Assets/design/sm.png";
+import ui from "../../Assets/design/ui.png";
+import sp from "../../Assets/design/sp.png";
+import dr from "../../Assets/design/dr.png";
 
 
-function International() {
+function design() {
   return (
     <Container fluid className="project-section">
       <Particle />
@@ -97,4 +97,4 @@ function International() {
   );
 }
 
-export default International;
+export default design;
