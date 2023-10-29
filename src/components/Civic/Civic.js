@@ -3,6 +3,8 @@ import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "../Projects/ProjectCards";
 import Particle from "../Particle";
 import gp from "../../Assets/Civic/gp.png";
+import ai from "../../Assets/Civic/ai.png";
+import sm from "../../Assets/Civic/sm.png";
 
 
 function Civic() {
@@ -18,6 +20,21 @@ function Civic() {
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
+              <ProjectCard
+              imgPath={ai}
+              isBlog={false}
+              title="IBM AI Engineering"
+              description=" Learners who have completed this 6 course Professional Certificate have a practical understanding of Machine Learning (ML) & Deep Learning (DL). They have technical skills to start a career in AI Engineering, and can: • Implement ML algorithms including Classification, Regression, Clustering, and Dimensional Reduction using scipy & scikitlearn • Perform ML on Big Data and deploy ML Algorithms and Pipelines on Apache Spark • Demonstrate understanding of Deep Learning models such as autoencoders, restricted Boltzmann machines, convolutional networks, recursive neural networks, and recurrent networks • Build deep learning models and neural networks using Keras, PyTorch and Tensorflow libraries • Demonstrate ability to present and communicate outcomes of deep learning projects."
+              courseraLink="https://coursera.org/share/b943377084cee42d0eaa93c7d268386b"
+          />
+              <ProjectCard
+              imgPath={sm}
+              isBlog={false}
+              title="Scrum Master Certification"
+              description=" In this specialization, you'll learn about managing tasks and events within a Sprint, Scrum terminology and roles, Scrum reporting, and managing risks. We'll discuss Story Points and User Stories, scaling Scrum, Continuous Integration, test-Driven Development (TDD), and Behavior Driven Development (BDD)."
+              courseraLink="https://coursera.org/share/0b6a585db244b697edd19df7c6aac2eb"
+          />
+        
             <ProjectCard
               imgPath={gp}
               isBlog={false}
