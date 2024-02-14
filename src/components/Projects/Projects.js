@@ -5,6 +5,9 @@ import Particle from "../Particle";
 import cancer from "../../Assets/Projects/cancer.png";
 import genes from "../../Assets/Projects/genes.png";
 import traffic from "../../Assets/Projects/traffic.png";
+import porto from "../../Assets/Projects/porto.png";
+import predicta from "../../Assets/Projects/predicta.png";
+import gan from "../../Assets/Projects/gan.png";
 
 
 function Projects() {
@@ -21,7 +24,7 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={cancer}
+              imgPath={gan}
               isBlog={false}
               title="GAN : Deep learning for Wireless signal spoofing"
               description="a 6 months project on development of Generative Adversarial Networks (GANs) to improve cybersecurity by faking multi-carrier wireless signals. Our initial results show that we're on the right track to creating fake signals effectively but is just the beginning, we're committed to making our methods even more accurate and secure. I also had the opportunity to work with a fantastic team on a scientific paper about this topic."
@@ -32,7 +35,7 @@ function Projects() {
                 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={cancer}
+              imgPath={predicta}
               isBlog={false}
               title="Predicta Industry : AI for predictive maintenance"
               description="Developed a real-time monitoring system utilizing AWS IoT and Apache Kafka, integrated with machine learning models for anomaly detection and Slack-based alerting. Leading the creation of our startup Predicta, from market analysis to pitching in Centrale Hall of Enterprises, encompassing the development of business plans, branding, client targeting, etc..."
@@ -75,10 +78,10 @@ function Projects() {
                 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={cancer}
+              imgPath={porto}
               isBlog={false}
-              title="Sectorial Optimisation des portefeuilles de crédit aux entreprises"
-              description="We aimed to optimize a financial portfolio, focusing on minimizing risk while adhering to specific constraints such as achieving a targeted average return and respecting a maximum risk threshold."
+              title="Financial Portfolio Optimization with Convex Optimization Techniques in Python"
+              description="we implemented an optimization model using Python and the cvxpy library to determine the optimal weights of assets in a financial portfolio. We defined constraints to ensure the total investment equaled one, targeted a specific average return, and limited the overall risk. By minimizing the quadratic form of the weights, we aimed to reduce portfolio variance. Our solution involved numerical techniques to solve for asset weights that met these criteria, effectively balancing risk and return."
               demoLink="https://colab.research.google.com/drive/1Z6_4mzTcOvSna6Oiywte-rEIL2ubJPAE?usp=sharing"
               />
           </Col>
