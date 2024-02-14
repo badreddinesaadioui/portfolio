@@ -14,7 +14,22 @@ function Education() {
     className="vertical-timeline-element--work"
     contentStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
     contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
-    date="2022 - present"
+    date="2023 - present"
+    iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+    icon={<IoMdSchool />}
+  >
+    <h3 className="vertical-timeline-element-title">ECL ECOLE CENTRALE DE LYON | Ex-change generalist engineering Student</h3>
+    <h4 className="vertical-timeline-element-subtitle">Lyon, France</h4>
+    <p>
+      Ex-change engineering student at ÉCOLE CENTRALE de Lyon (Grande École) studying Computer science, finance and economics, marketing, entrepreneurship and astrophysics.
+
+    </p>
+  </VerticalTimelineElement>
+  <VerticalTimelineElement
+    className="vertical-timeline-element--work"
+    contentStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+    contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
+    date="2022 - 2023"
     iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
     icon={<IoMdSchool />}
   >
