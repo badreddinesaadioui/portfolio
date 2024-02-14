@@ -25,7 +25,7 @@ function Interests() {
               imgPath={graphic}
               isBlog={false}
               title="Graphic design"
-              description="Having always been interested in art, I have developed a strong passion for graphic design and its crucial role in the field of marketing. Whether it's creating eye-catching logos or designing captivating ads, I am committed to using my skills to deliver visually appealing designs that effectively promote brands and products."
+              description="With a background in an art school, I have shifted to graphic design to nurture my passion wich helped me developp a solid knowledge in marketing. Whether it's creating eye-catching logos or designing captivating ads or merchandise, I am committed to using my skills to deliver visually appealing designs that effectively promote brands and products."
             />
           </Col>
 
@@ -34,7 +34,7 @@ function Interests() {
               imgPath={bodybuilding}
               isBlog={false}
               title="Bodybuilding"
-              description="I am deeply passionate about fitness, and my interest in bodybuilding has allowed me to appreciate its ability to shape and sculpt the body. My unwavering commitment to maintaining a healthy lifestyle involves pushing my physical limits at the gym and adhering to a strict nutrition plan. Moreover, to augment my physical prowess and self-discipline, I have also pursued martial arts training."
+              description="While motivation and passion are valuable, they aren't always constant. Taking care of one's body is essential, representing the minimum standard. I maintain a stoic mindset regarding this aspect of my life. Passionate about fitness, I've crafted my bodybuilding program over the years through self-education. My dedication to a healthy lifestyle includes rigorous gym sessions and strict adherence to a nutritional regimen. Additionally, I've pursued martial arts training in disciplines such as taekwondo (2nd gup), tai jitsu, and MMA to enhance both my physical abilities and self-discipline."
             />
           </Col>
 
@@ -43,7 +43,7 @@ function Interests() {
               imgPath={coding}
               isBlog={false}
               title="Coding"
-              description="There are so many things to love about coding, both from a technical and philosophical perspective. It can sharpen your mind, rewire your brain, provide people with great software... the options and impact are nearly endless. Programming can really empower to change the world."           
+              description="Coding is an incredibly rewarding pursuit, offering both technical and philosophical delights. It challenges the mind, reshapes thinking patterns, and facilitates the creation of impactful software solutions. Through programming, individuals can wield the power to effect positive change in the world. I've dedicated myself to mastering various languages, becoming fluent in Python through self-study, acquiring proficiency in PHP during a six-week internship, and currently delving into C++ through coursework at Centrale de Lyon."           
             />
           </Col>
           
