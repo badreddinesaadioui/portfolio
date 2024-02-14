@@ -7,7 +7,7 @@ import { IoMdSchool } from "react-icons/io";
 
 
 
-function Education() {
+function Experience() {
   return (
     <VerticalTimeline>
   <VerticalTimelineElement
@@ -73,4 +73,4 @@ function Education() {
   );
 }
 
-export default Education;
+export default Experience;
