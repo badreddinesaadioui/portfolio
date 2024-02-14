@@ -19,17 +19,17 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              It all started with a passion to mathematics, computer science and how technology works… 🤷‍♂️
+              It all started with a passion to mathematics, computer science, and how technology works… 🤷‍♂️
               <br />
               <br />I am currently studying
               <i>
-                <b className="purple"> System engineering and management </b>
+                <b className="purple"> Generalist engineering </b>
               </i>
               <br />
               <br />
               My field of Interest's are &nbsp;
               <i>
-                <b className="purple"> AI engineering, Data analytics, and Data scrapping, </b>
+                <b className="purple"> Consulting, AI engineering, Data analytics, and Data scrapping, </b>
                 also in areas related to{" "}
                 <b className="purple">
                   building Web Technologies and products.
@@ -82,7 +82,7 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://www.linkedin.com/in/badreddine-saadioui-624583257/"
+                  href="https://www.linkedin.com/in/badreddine-saadioui/"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
