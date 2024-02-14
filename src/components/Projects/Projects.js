@@ -23,6 +23,29 @@ function Projects() {
             <ProjectCard
               imgPath={cancer}
               isBlog={false}
+              title="GAN : Deep learning for Wireless signal spoofing"
+              description="a 6 months project on development of Generative Adversarial Networks (GANs) to improve cybersecurity by faking multi-carrier wireless signals. Our initial results show that we're on the right track to creating fake signals effectively but is just the beginning, we're committed to making our methods even more accurate and secure. I also had the opportunity to work with a fantastic team on a scientific paper about this topic."
+              demoLink="https://github.com/badreddinesaadioui/GAN-for-Wireless-signal-spoofing/blob/main/Article_Scientifique.pdf"
+              ghLink="https://github.com/badreddinesaadioui/GAN-for-Wireless-signal-spoofing/tree/main"
+              />
+          </Col>
+                
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={cancer}
+              isBlog={false}
+              title="Predicta Industry : AI for predictive maintenance"
+              description="Developed a real-time monitoring system utilizing AWS IoT and Apache Kafka, integrated with machine learning models for anomaly detection and Slack-based alerting. Leading the creation of our startup Predicta, from market analysis to pitching in Centrale Hall of Enterprises, encompassing the development of business plans, branding, client targeting, etc..."
+              demoLink="https://predicta.saadioui.com/"
+              ghLink="https://github.com/badreddinesaadioui/Predicta-AI-Startup/tree/main"
+              />
+          </Col>
+              
+                
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={cancer}
+              isBlog={false}
               title="Detection Of Microcalcifications In Mammography"
               description="In this project, we conducted a comprehensive analysis of various machine learning models, including KNN, SVM, and random forest, with different parameter settings and combinations, to accurately detect microcalcifications on mammograms. Early detection of microcalcifications is crucial in breast cancer screening. However, the dataset used in this project was highly imbalanced, which presented a significant challenge. This project was supervised by ECC CODING WEEK."
               demoLink="https://youtu.be/hXpkJLSBqd0"
@@ -49,6 +72,17 @@ function Projects() {
               ghLink="https://github.com/badreddinesaadioui/PLBD"
               />
           </Col>
+                
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={cancer}
+              isBlog={false}
+              title="Sectorial Optimisation des portefeuilles de crédit aux entreprises"
+              description="We aimed to optimize a financial portfolio, focusing on minimizing risk while adhering to specific constraints such as achieving a targeted average return and respecting a maximum risk threshold."
+              demoLink="https://colab.research.google.com/drive/1Z6_4mzTcOvSna6Oiywte-rEIL2ubJPAE?usp=sharing"
+              />
+          </Col>
+                
 
         </Row>
       </Container>
