@@ -66,6 +66,7 @@ function Experience() {
     <h4 className="vertical-timeline-element-subtitle">Casablanca, Morocco</h4>
     <p>
       Falling also within my design expertise, I founded Dripio, an online clothing store showcasing my original creations. At Dripio, I collaborate closely with textile production suppliers for Jackets productions and utilize direct-to-fabric (DTF) printing or embroidery techniques. From design conception to production, I oversee every step to ensure quality and consistency. Visit my store at <a href='https://dripio.youcan.store/' target='_blank'>https://dripio.youcan.store/</a>.
+    </p>
   </VerticalTimelineElement>
 </VerticalTimeline>
   );
