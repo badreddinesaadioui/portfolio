@@ -50,7 +50,7 @@ function Experience() {
     <h3 className="vertical-timeline-element-title"> GrowStudio Agency | Founder </h3>
     <h4 className="vertical-timeline-element-subtitle">Casablanca, Morocco</h4>
     <p>
-      Having expertise in design, I found myself drawn to marketing and design, which led me to establish GrowStudio, a digital marketing agency. Here, I've honed my skills in Web Development, Branding, SEO, Google Maps profile optimization, Logo design, and Strategic thinking. I've helped businesses attract more clients, particularly through Google Maps, by enhancing their online presence. You can explore my business at <a href="https://grow.studio" target="_blank" rel="noopener noreferrer">https://grow.studio</a>. Some of our clients include MTSAUTO, showcased at <a href="https://MTSauto.ma" target="_blank" rel="noopener noreferrer">https://MTSauto.ma</a> .
+      Having expertise in design, I found myself drawn to marketing and design, which led me to establish GrowStudio, a digital marketing agency. Here, I've honed my skills in Web Development, Branding, SEO, Google Maps profile optimization, Logo design, and Strategic thinking. I've helped businesses attract more clients, particularly through Google Maps, by enhancing their online presence. You can explore my business at <a href="https://grows.studio" target="_blank" rel="noopener noreferrer">https://grows.studio</a>. Some of our clients include MTSAUTO, showcased at <a href="https://MTSauto.ma" target="_blank" rel="noopener noreferrer">https://MTSauto.ma</a> .
       
     </p>
   </VerticalTimelineElement>
