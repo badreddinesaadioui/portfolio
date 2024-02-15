@@ -50,7 +50,7 @@ function Experience() {
     <h3 className="vertical-timeline-element-title"> GrowStudio Agency | Founder </h3>
     <h4 className="vertical-timeline-element-subtitle">Casablanca, Morocco</h4>
     <p>
-      Having expertise in design, I found myself drawn to marketing and design, which led me to establish GrowStudio, a digital marketing agency. Here, I've honed my skills in Web Development, Branding, SEO, Google Maps profile optimization, Logo design, and Strategic thinking. I've helped businesses attract more clients, particularly through Google Maps, by enhancing their online presence. You can explore my business at <a href='https://grow.studio' target='_blank'>https://grow.studio</a>. Some of our clients include MTSAUTO, showcased at <a href='https://MTSauto.ma' target='_blank'>https://MTSauto.ma</a>.
+      Having expertise in design, I found myself drawn to marketing and design, which led me to establish GrowStudio, a digital marketing agency. Here, I've honed my skills in Web Development, Branding, SEO, Google Maps profile optimization, Logo design, and Strategic thinking. I've helped businesses attract more clients, particularly through Google Maps, by enhancing their online presence. You can explore my business at <a href="https://grow.studio" target="_blank" rel="noopener noreferrer">https://grow.studio</a>. Some of our clients include MTSAUTO, showcased at <a href="https://MTSauto.ma" target="_blank" rel="noopener noreferrer">https://MTSauto.ma</a> .
       
     </p>
   </VerticalTimelineElement>
@@ -65,7 +65,7 @@ function Experience() {
     <h3 className="vertical-timeline-element-title"> DRIPIO clothing| Founder </h3>
     <h4 className="vertical-timeline-element-subtitle">Casablanca, Morocco</h4>
     <p>
-      Falling also within my design expertise, I founded Dripio, an online clothing store showcasing my original creations. At Dripio, I collaborate closely with textile production suppliers for Jackets productions and utilize direct-to-fabric (DTF) printing or embroidery techniques. From design conception to production, I oversee every step to ensure quality and consistency. Visit my store at <a href='https://dripio.youcan.store/' target='_blank'>https://dripio.youcan.store/</a>.
+      Falling also within my design expertise, I founded Dripio, an online clothing store showcasing my original creations. At Dripio, I collaborate closely with textile production suppliers for Jackets productions and utilize direct-to-fabric (DTF) printing or embroidery techniques. From design conception to production, I oversee every step to ensure quality and consistency. Visit my store at <a href="https://dripio.youcan.store/" target="_blank" rel="noopener noreferrer">https://dripio.youcan.store/</a>.
     </p>
   </VerticalTimelineElement>
 </VerticalTimeline>
