@@ -3,7 +3,7 @@ import VerticalTimeline from "./VerticalTimeline";
 import VerticalTimelineElement from "./VerticalTimelineElement";
 import './VerticalTimeline.css';
 import './VerticalTimelineElement.css';
-import { IoMdSchool } from "react-icons/io";
+import { IoMdBriefcase } from "react-icons/io";
 
 
 
@@ -16,7 +16,7 @@ function Experience() {
     contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
     date="June 2023 - July 2023"
     iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
-    icon={<IoMdSchool />}
+    icon={<IoMdBriefcase />}
   >
     <h3 className="vertical-timeline-element-title">CFG BANK | AI and Software Engineering Intern</h3>
     <h4 className="vertical-timeline-element-subtitle">Casablanca, Morocco</h4>
@@ -31,7 +31,7 @@ function Experience() {
     contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
     date="February 2023 - Present"
     iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
-    icon={<IoMdSchool />}
+    icon={<IoMdBriefcase />}
   >
     <h3 className="vertical-timeline-element-title">JECC Junior Entreprise | Junior Consultant</h3>
     <h4 className="vertical-timeline-element-subtitle">Casablanca, Morocco</h4>
@@ -45,7 +45,7 @@ function Experience() {
     contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
     date="March 2023 - Present "
     iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
-    icon={<IoMdSchool />}
+    icon={<IoMdBriefcase />}
   >
     <h3 className="vertical-timeline-element-title"> GrowStudio Agency | Founder </h3>
     <h4 className="vertical-timeline-element-subtitle">Casablanca, Morocco</h4>
@@ -60,7 +60,7 @@ function Experience() {
     contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
     date="2022 - Present"
     iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
-    icon={<IoMdSchool />}
+    icon={<IoMdBriefcase />}
   >
     <h3 className="vertical-timeline-element-title"> DRIPIO clothing| Founder </h3>
     <h4 className="vertical-timeline-element-subtitle">Casablanca, Morocco</h4>
