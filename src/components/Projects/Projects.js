@@ -26,8 +26,8 @@ function Projects() {
             <ProjectCard
               imgPath={gan}
               isBlog={false}
-              title="GAN : Deep learning for Wireless signal spoofing"
-              description="a 6 months project on development of Generative Adversarial Networks (GANs) to improve cybersecurity by faking multi-carrier wireless signals. Our initial results show that we're on the right track to creating fake signals effectively but is just the beginning, we're committed to making our methods even more accurate and secure. I also had the opportunity to work with a fantastic team on a scientific paper about this topic."
+              title="Generative advarsarial networks (GAN) for Wireless Signal Spoofing"
+              description="6 months project on development of GAN model to enhance cybersecurity by generating synthetic signals indistinguishable from authentic ones. We did venture an uncharted territory be working with multicarrier waveforms. we also developed a CNN and inceptionV3 to evaluate our GAN. really enjoyed working with an amazing team, we summarized our work on a scientific [paper](https://github.com/badreddinesaadioui/GAN-for-Wireless-signal-spoofing/blob/main/Article_Scientifique.pdf). Our future research will focus on refining the GAN model to enhance the quality and authenticity of generated signals."
               demoLink="https://github.com/badreddinesaadioui/GAN-for-Wireless-signal-spoofing/blob/main/Article_Scientifique.pdf"
               ghLink="https://github.com/badreddinesaadioui/GAN-for-Wireless-signal-spoofing/tree/main"
               />
@@ -37,8 +37,8 @@ function Projects() {
             <ProjectCard
               imgPath={predicta}
               isBlog={false}
-              title="Predicta Industry : AI for predictive maintenance"
-              description="Developed a real-time monitoring system utilizing AWS IoT and Apache Kafka, integrated with machine learning models for anomaly detection and Slack-based alerting. Leading the creation of our startup Predicta, from market analysis to pitching in Centrale Hall of Enterprises, encompassing the development of business plans, branding, client targeting, etc..."
+              title="Predicta Industry : the AI solution for predictive maintenance"
+              description="Developed a real-time monitoring system utilizing AWS IoT and Apache Kafka, integrated with machine learning models for anomaly detection and Slack-based alerting. Also branding and leading the creation of the startup Predicta, from market analysis to pitching in Centrale Hall of Enterprises, encompassing the development of business plans, client targeting, etc..."
               demoLink="https://predicta.saadioui.com/"
               ghLink="https://github.com/badreddinesaadioui/Predicta-AI-Startup/tree/main"
               />
@@ -49,8 +49,8 @@ function Projects() {
             <ProjectCard
               imgPath={cancer}
               isBlog={false}
-              title="Detection Of Microcalcifications In Mammography"
-              description="In this project, we conducted a comprehensive analysis of various machine learning models, including KNN, SVM, and random forest, with different parameter settings and combinations, to accurately detect microcalcifications on mammograms. Early detection of microcalcifications is crucial in breast cancer screening. However, the dataset used in this project was highly imbalanced, which presented a significant challenge. This project was supervised by ECC CODING WEEK."
+              title="Machine learning for detection of microcalcifications"
+              description="In this project, we conducted a comprehensive analysis of various machine learning models, including KNN, SVM, and random forest, with different parameter settings and combinations, to accurately detect microcalcifications on mammograms. Early detection of microcalcifications is crucial in breast cancer screening. However, the dataset used in this project was highly imbalanced, which presented a significant challenge that we overcame. This project was supervised by ECC CODING WEEK."
               demoLink="https://youtu.be/hXpkJLSBqd0"
               ghLink="https://github.com/badreddinesaadioui/Detection-Of-Microcalcifications-In-Mammography"
               />
