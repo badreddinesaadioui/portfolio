@@ -70,8 +70,8 @@ function Projects() {
             <ProjectCard
               imgPath={traffic}
               isBlog={false}
-              title="PLBD : Traffic Optimization"
-              description="The Project Learning by Doing is an annual project that encourages teamwork and leadership development among a team of five members with diverse nationalities. In this project, we utilized OpenCV to analyze traffic images and extract traffic density information, which enabled us to develop an optimization code that dynamically adjusted traffic light timings to improve traffic flow and alleviate congestion in real-time. To assess the effectiveness of our optimization code, we compared our model with both a deep learning-based approach and a traditional timing system using a traffic simulator. Our results highlighted the potential of computer vision and machine learning techniques to optimize traffic control systems."  
+              title="Reinforcement learning Traffic light Optimization"
+              description="The PLBD Project Learning By Doing is an annual project (10 months) that encourages teamwork and leadership development among a team of five members with diverse nationalities. In this project, we utilized OpenCV to analyze traffic images and extract traffic density information, which enabled us to develop an optimization code that dynamically adjusted traffic light timings to improve traffic flow and alleviate congestion in real-time. To assess the effectiveness of our optimization code, we compared our model with both a reinforcement learning-based approach and a traditional timing system using a traffic simulator SUMO. Our results highlighted the superiority of dynamic density based method."  
               ghLink="https://github.com/badreddinesaadioui/PLBD"
               />
           </Col>
@@ -80,7 +80,7 @@ function Projects() {
             <ProjectCard
               imgPath={porto}
               isBlog={false}
-              title="Financial Portfolio Optimization with Convex Optimization Techniques in Python"
+              title="Financial Portfolio Optimization with Convex Techniques in Python"
               description="we implemented an optimization model using Python and the cvxpy library to determine the optimal weights of assets in a financial portfolio. We defined constraints to ensure the total investment equaled one, targeted a specific average return, and limited the overall risk. By minimizing the quadratic form of the weights, we aimed to reduce portfolio variance. Our solution involved numerical techniques to solve for asset weights that met these criteria, effectively balancing risk and return."
               demoLink="https://colab.research.google.com/drive/1Z6_4mzTcOvSna6Oiywte-rEIL2ubJPAE?usp=sharing"
               />
