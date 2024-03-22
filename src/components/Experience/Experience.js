@@ -18,7 +18,7 @@ function Experience() {
     iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
     icon={<IoMdBriefcase />}
   >
-    <h3 className="vertical-timeline-element-title">CFG BANK | AI and Software Engineering Intern</h3>
+    <h3 className="vertical-timeline-element-title">CFG BANK | Digital Transformation Strategy Consultant</h3>
     <h4 className="vertical-timeline-element-subtitle">Casablanca, Morocco</h4>
     <p>
       A 6-week internship, where i designed and developed an API for quality prospect leads gathering from Creditinfo, integrated it with the Pipedrive CRM used by the marketing team to alert them given also necessary infos about the prospect that i extract, also had a second mission of developping a client assistant chatbot, used dialogflow and extracted data from different sources such as CFG Bank website and dozens of documents.
@@ -33,7 +33,7 @@ function Experience() {
     iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
     icon={<IoMdBriefcase />}
   >
-    <h3 className="vertical-timeline-element-title">JECC Junior Entreprise | Junior Consultant</h3>
+    <h3 className="vertical-timeline-element-title">JECC Junior Entreprise | Business Analyst</h3>
     <h4 className="vertical-timeline-element-subtitle">Casablanca, Morocco</h4>
     <p>
       held two roles: Junior consultant, where I managed and spearheaded projects such as TRIA Company, overseeing comprehensive market and competitor analyses through conducting a 600 targeted surveys across various locations in Morocco (including Rabat, Casablanca, Tangier, Agadir, Tetouan, etc.), and utilizing Power BI to create informative dashboards aiding strategic decision-making; subsequently, I served as a graphic designer.    
