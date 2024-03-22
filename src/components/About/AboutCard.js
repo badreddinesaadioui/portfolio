@@ -9,7 +9,7 @@ function AboutCard() {
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
             Hi Everyone, I am <span className="purple">Badreddine Saadioui </span>
-            <br />Second year generalist engineering ex-change student at ECL CENTRALE de Lyon. Interested in Artificial Intelligence and data science and consulting because of the mixture of applied mathematics, modelization, data analysis and software engineering. My curiosity towards science, new technologies and entrepreneurship is growing and supports my engagement to broaden my knowledge and build my skills.
+            <br />a second-year generalist engineering exchange student at ECL CENTRALE de Lyon. My passion lies in consulting, strategy, finance, and marketing, driven by the amalgamation of applied mathematics, modeling, data analysis, and AI engineering. My curiosity towards science, new technologies and entrepreneurship is growing and supports my engagement to broaden my knowledge and build my skills.
 
 
             <br />
@@ -23,15 +23,15 @@ function AboutCard() {
               <ImPointRight /> Graphic design
             </li>
             <li className="about-activity">
-              <ImPointRight /> Bodybuilding
+              <ImPointRight /> Video editing
             </li>
             <li className="about-activity">
-              <ImPointRight /> Sports ( All of them XD )
+              <ImPointRight /> Bodybuilding and sports
             </li>
           </ul>
 
           <p style={{ color: "rgb(96, 136, 224)" }}>
-            "Ta7aja matghlebna, rjal brjal wrjal blah !"{" "}
+            "I love turning complexity into the simple building blocks of success !"{" "}
           </p>
           <footer className="blockquote-footer"> Badreddine Saadioui</footer>
         </blockquote>
