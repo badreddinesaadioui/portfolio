@@ -29,7 +29,7 @@ function Home2() {
               <br />
               My field of Interest's are &nbsp;
               <i>
-                <b className="purple"> Consulting, AI engineering, Data analytics, and Data scrapping, </b>
+                <b className="purple"> AI engineering, Data analytics, and Consulting, </b>
                 also in areas related to{" "}
                 <b className="purple">
                   building Web Technologies and products.
