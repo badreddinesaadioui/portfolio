@@ -21,13 +21,13 @@ function Toolstack() {
         <SiGooglecolab />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <GrHadoop />
+        <SiNetlify />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiMysql />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiNetlify />
+        <GrHadoop />
       </Col>
     </Row>
   );
