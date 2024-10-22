@@ -15,7 +15,7 @@ function Toolstack() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
       <Col xs={4} md={2} className="tech-icons">
-        <SiGooglecolab />
+        <SiVisualstudiocode />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiMysql />
@@ -24,7 +24,7 @@ function Toolstack() {
         <GrHadoop />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiVisualstudiocode />
+        <SiGooglecolab />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiNetlify />
