@@ -18,13 +18,13 @@ function Toolstack() {
         <SiVisualstudiocode />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiMysql />
+        <SiGooglecolab />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <GrHadoop />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiGooglecolab />
+        <SiMysql />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiNetlify />
