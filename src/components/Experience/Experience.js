@@ -14,6 +14,20 @@ function Experience() {
     className="vertical-timeline-element--work"
     contentStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
     contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
+    date="August 2024 - Present"
+    iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+    icon={<IoMdBriefcase />}
+  >
+    <h3 className="vertical-timeline-element-title">Head of AI Projects | Incenteev</h3>
+    <h4 className="vertical-timeline-element-subtitle">Paris, France</h4>
+    <p>
+      Working on AI features for the Incenteev platform, managing the full process from conceptualization to development. Developing advanced real-time AI coaching solutions with voice-to-text, text-to-voice, and performance analytics dashboard. Fine-tuning LLMs to prevent jailbreaking and hallucinations.
+    </p>
+  </VerticalTimelineElement>
+  <VerticalTimelineElement
+    className="vertical-timeline-element--work"
+    contentStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+    contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
     date="April 2024 - July 2024"
     iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
     icon={<IoMdBriefcase />}
