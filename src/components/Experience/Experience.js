@@ -14,6 +14,20 @@ function Experience() {
     className="vertical-timeline-element--work"
     contentStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
     contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
+    date="April 2024 - July 2024"
+    iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+    icon={<IoMdBriefcase />}
+  >
+    <h3 className="vertical-timeline-element-title">AI Researcher | IRIS, École Centrale de Lyon</h3>
+    <h4 className="vertical-timeline-element-subtitle">Lyon, France</h4>
+    <p>
+      Developed an LSTM model structure to evaluate stock performance using high-frequency data. Published a scientific paper on the project's findings.
+    </p>
+  </VerticalTimelineElement>
+  <VerticalTimelineElement
+    className="vertical-timeline-element--work"
+    contentStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+    contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
     date="June 2023 - July 2023"
     iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
     icon={<IoMdBriefcase />}
