@@ -4,12 +4,11 @@ import {
   SiGooglecolab,
   SiVisualstudiocode,
   SiMysql,
-  SiNetlify,
+  SiGithub,
+  SiKubernetes,
   
 } from "react-icons/si";
 import {
-GrHadoop
-} from "react-icons/gr";
 
 function Toolstack() {
   return (
@@ -18,16 +17,16 @@ function Toolstack() {
         <SiVisualstudiocode />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiGooglecolab />
+        <SiGithub />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiNetlify />
+        <SiGooglecolab  />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiMysql />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <GrHadoop />
+        <SiKubernetes />
       </Col>
     </Row>
   );
