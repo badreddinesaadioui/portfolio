@@ -18,10 +18,9 @@ function Home() {
                 <span className="wave" role="img" aria-labelledby="wave">
                   👋🏻
                 </span>
-                  my name is
               </h1>
               <h1 className="heading-name">
-                <strong className="main-name"> Badreddine saadioui</strong>
+                I'm<strong className="main-name"> Badreddine saadioui</strong>
               </h1>
 
               <div style={{ padding: 50, textAlign: "left" }}>
